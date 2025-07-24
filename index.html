@@ -24,21 +24,21 @@
     <!-- Header Section starts -->
     <header>
         <!-- Navigation Section Starts -->
-        <nav class="max-w-[1140px] mx-auto flex justify-between items-center mt-5.5">
+        <nav class="max-w-[1140px] md:mx-auto md:flex md:justify-between md:items-center md:mt-5.5 flex justify-between items-center mx-4 mt-3">
             <div>
                 <a href="index.html">
                     <img src="assets/logo.png" alt="loho will be showed soon">
                 </a>
             </div>
             <div>
-                <ul class="flex items-center gap-9.5 text-[#8987A1]">
-                    <li class="hover:text-black">Home</li>
-                    <li class="hover:text-black">Shop</li>
-                    <li class="hover:text-black">About Us</li>
+                <ul class="md:flex items-center gap-9.5 text-[#8987A1]">
+                    <li class="hidden md:block hover:text-black hover:font-bold">Home</li>
+                    <li class="hidden md:block hover:text-black hover:font-bold">Shop</li>
+                    <li class="hidden md:block hover:text-black hover:font-bold">About Us</li>
                     <li>
-                        <a class="flex items-center gap-2 text-black" href="">
+                        <a class="md:flex md:items-center md:gap-2 flex items-center text-black font-bold" href="">
                         <i class="fa-solid fa-cart-shopping"></i>
-                        <p>Cart ($56)</p>
+                        <p class="hidden md:block">Cart ($56)</p>
                         </a>
                     </li>
                 </ul>
@@ -48,12 +48,14 @@
 
         <!-- Banner Section Starts -->
          <section>
-            <div>
-                <h1>ALWAYS FRESH FLOWERS</h1>
-                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
-            </div>
-            <div>
-                <img src="assets/hero-flower.png" alt="picture will show soon">
+            <div class="max-w-[1140px] mx-auto flex md:justify-between md:mt-[120px]">
+                <div>
+                <h1 class="font-bold text-7xl">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
+                <p class="font-light md:text-[22px] md:mt-6">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+                </div>
+                <div class="md:w-full">
+                    <img src="assets/hero-flower.png" alt="picture will show soon">
+                </div>
             </div>
          </section>
          <!-- Banner Section Ends -->
